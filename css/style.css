@@ -56,11 +56,16 @@
 
   #sample {
     position: absolute;
-    top: 850px;
+    top: 600px;
     left: 5%;
     width: 90%;
     margin: auto;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    padding: 10px;
   }
   input[type="email"] {
     height: 2.3em;
   }
+
+  ul.inline li { display: inline}
