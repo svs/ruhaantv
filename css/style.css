@@ -1,0 +1,66 @@
+  @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+  @import url(http://fonts.googleapis.com/css?family=Crafty+Girls);
+  body {
+    background-size: 100% ;
+    background-repeat: no-repeat;
+   
+  }
+  p { text-align: justify }
+  #nav {
+    width: 500px;
+    position: absolute;
+    right: 20px;
+    background-color: rgba(50,50,50, 0.5);
+    border-radius: 0px 0px 10px 10px;
+  }
+  .navbar-inner {
+    background: rgba(50,50,50, 0.5);
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .navbar .nav li a {
+    color: white;
+    text-shadow: none;
+  }
+  .navbar .nav li a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  #logo {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+  }
+  #tagline {
+    font-size: 2em;
+    font-family: 'Crafty Girls';
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    font-weight: normal;
+  }
+  h3 {
+    font-family: 'Crafty Girls';
+    font-weight: normal;
+  }
+  #top-content {
+    position: absolute;
+    top: 200;
+    right: 50px;
+    width: 480px;
+  }
+  #mc_embed_signup {
+    background: rgba(100,100,100, 0.8);
+  }
+
+  #sample {
+    position: absolute;
+    top: 850px;
+    left: 5%;
+    width: 90%;
+    margin: auto;
+  }
+  input[type="email"] {
+    height: 2.3em;
+  }
